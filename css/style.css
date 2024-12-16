@@ -137,7 +137,6 @@ h6,
     font-weight: 600;
     outline: none;
     transition: .5s;
-    background-color: #06A3DA;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -162,7 +161,7 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
-        background: #06A3DA;
+        background: #ffffff;
     }
 
     .navbar-dark .navbar-nav .nav-link,
