@@ -185,7 +185,7 @@ h6,
 
 @media (min-width: 992px) {
     .navbar-dark {
-        position: absolute;
+        position: fixed;
         width: 100%;
         top: 0;
         left: 0;
@@ -200,7 +200,7 @@ h6,
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
-        position: absolute;
+        position: fixed;
         content: "";
         width: 0;
         height: 2px;
