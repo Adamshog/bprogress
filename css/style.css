@@ -149,6 +149,11 @@ h6,
     color: #FFFFFF;
 }
 
+.nav-item nav-link:hover {
+    color: #FFFFFF;
+
+}
+
 .navbar-dark .navbar-brand h1 {
     color: #FFFFFF;
 }
