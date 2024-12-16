@@ -129,7 +129,7 @@ h6,
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Nunito', sans-serif;
-    position: relative;
+    position: absolute;
     margin-left: 25px;
     padding: 35px 0;
     color: #FFFFFF;
@@ -199,7 +199,7 @@ h6,
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
-        position: fixed;
+        position: absolute;
         content: "";
         width: 0;
         height: 2px;
