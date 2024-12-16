@@ -137,6 +137,7 @@ h6,
     font-weight: 600;
     outline: none;
     transition: .5s;
+    background-color: #06A3DA;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
