@@ -140,7 +140,7 @@ h6,
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
-    padding: 0px 0;
+    padding: 20px 0;
     color: var(--dark);
 }
 
@@ -161,7 +161,6 @@ h6,
 .navbar-dark .navbar-toggler {
     color: var(--primary) !important;
     border-color: #FFFFFF;
-    background: #06A3DA;
 }
 
 @media (max-width: 991.98px) {
@@ -184,7 +183,7 @@ h6,
 
 @media (min-width: 992px) {
     .navbar-dark {
-        position: fixed;
+        position: absolute;
         width: 100%;
         top: 0;
         left: 0;
@@ -199,7 +198,7 @@ h6,
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
-        position: fixed;
+        position: absolute;
         content: "";
         width: 0;
         height: 2px;
