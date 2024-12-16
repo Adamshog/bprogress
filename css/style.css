@@ -142,6 +142,7 @@ h6,
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
     color: var(--dark);
+    position: fixed;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -166,7 +167,7 @@ h6,
 
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
-        position: absolute;
+        position: relative;
         background: #06A3DA;
     }
 
