@@ -165,7 +165,7 @@ h6,
 
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
-        position: fixed;
+        position: absolute;
         display: flex;
         background: #06A3DA;
     }
